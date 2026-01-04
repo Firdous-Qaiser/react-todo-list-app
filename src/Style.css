@@ -1,0 +1,63 @@
+.Logo {
+    display: flex;
+    justify-content: center;
+    color: #424242;
+}
+.flexDiv {
+    display: flex; 
+    justify-content: center;
+    font-size: 16px;
+}
+.blockDiv {
+    display: block;
+}
+.header {
+    text-align: left;
+}
+.lg-checkBox {
+    transform: scale(1.2);
+    margin-left: 8px;
+}
+.icon-banTask {
+    color: red;
+}
+.icon-edit {
+    color: #2563eb; 
+}
+.icon-save {
+    color: #16a34a;
+}
+.icon-del {
+    color: #dc2626
+}
+.EmptyIconstyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navDiv {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    gap: 12px;
+}
+.addTaskDiv {
+    display: flex;
+    justify-content: center;
+}
+.adTask {
+    width: 30vw;
+    height: 30px;
+    font-size: 14px;
+    border: #ffffffc7;
+    border: 1px solid black;
+    color: #000000;
+    padding-left: 10px;
+}
+.addBtn {
+    margin-left: 5px;
+    font-size: 15px;
+}
+.restoreBtn:hover {
+    color: rgb(9, 9, 240);
+}
