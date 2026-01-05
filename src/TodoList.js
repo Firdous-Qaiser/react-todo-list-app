@@ -6,9 +6,6 @@ function TaskList({tasks, onChangeTask,  onDeleteTask})
     {    
     const[editID, setEditID] = useState(null);
     const[value, setValue] = useState('');
-    const[completed, setCompleted] = useState([]);
-    const[show, setShow] = useState(false);
-    const[lastdel, setLastdel] = useState([]);
 
     const Labelstyle = () => ({
         display: 'flex', 
