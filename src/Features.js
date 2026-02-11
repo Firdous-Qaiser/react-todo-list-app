@@ -26,14 +26,14 @@ function Features({tasks, onShowCompltedTask, onShowDeleted, onShowActiveTasks, 
   };
     return (
         <div className = 'navDiv'>
-            <button onClick={() => {
+            <button data-testid = 'allTodo_btn' onClick={() => { 
                 handleClick('all', onShowAll);
             }}
             onMouseDown = {() => setPressedbtn('all')}
             onMouseUp = {() => setPressedbtn(null)}
             onMouseLeave = {() => setPressedbtn(null)}
             style = {Buttonstyle('all', '#69869cff')}>All Todos</button>
-                        <button onClick={() => {
+                <button data-testid = 'active_btn' onClick={() => {
                 handleClick('active', onShowActiveTasks);
             }}
             onMouseDown = {() => setPressedbtn('Active')}
@@ -41,14 +41,14 @@ function Features({tasks, onShowCompltedTask, onShowDeleted, onShowActiveTasks, 
             onMouseLeave = {() => setPressedbtn(null)}
             style = {Buttonstyle('active', '#bba050ff')}>
             Active Todos</button>
-            <button onClick = {() => { 
+            <button data-testid = 'done_btn' onClick = {() => { 
                 handleClick('done', onShowCompltedTask);
             }} 
             onMouseDown = {() => setPressedbtn('done')}
             onMouseUp = {() => setPressedbtn(null)}
             onMouseLeave = {() => setPressedbtn(null)}
             style = {Buttonstyle('done', '#247b27ff')}>Done Todos</button>
-            <button onClick={() => {
+            <button data-testid = 'remove_btn' onClick={() => {
                 handleClick('remove', onShowDeleted);
             }}            
             onMouseDown = {() => setPressedbtn('remove')}
