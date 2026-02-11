@@ -7,12 +7,13 @@ function AddTask({onAddTask}) {
     return (
         <div className = 'addTaskDiv'>
             <input 
+            type = 'text'
             placeholder = 'ENTER TASK'
             value = {addTask}
             onChange={e => setAddTask(e.target.value)}
             className="adTask">
             </input>
-            <button onClick={handleClick} className="addBtn"
+            <button onClick={handleClick} className="addBtn" data-testid = 'addon'
             ><FaPlus /></button>
         </div>
     );
