@@ -78,13 +78,14 @@ function App() {
           {task.text}
           <div style = {Iconstyle()}>
              <button onClick={() => handleRestoreTask(task)}
-              className='restoreBtn'>Restore</button>
+              className='restoreBtn' 
+              data-testid = 'restore_icon'>Restore</button>
              <FaBan size='20' style = {Icon('red')}/>
           </div>
           </li>
     ))) : (
       <div className='EmptyIconstyle'>
-      <FaBox style={Icon('#9CA3AF')}/>
+      <FaBox style={Icon('#9CA3AF')} data-testid = 'emptyIcon'/>
       </div>
     )}
     </div>
@@ -179,7 +180,7 @@ function App() {
 
       {displayDeletedTask()}
       {displayActiveTasks()}
-      {displayCompltedTask()}
+      {displayCompltedTask()} 
     </div>
   );
 }
@@ -214,7 +215,7 @@ function tasksReducer(tasks, action) {
     }
   }
 }
-let nextId = 3;
+let nextId = 6;
 const initialTasks = [ 
   { id: 0, text: 'Clean my room', done: true, deleted: false},
   { id: 1, text: 'Do grocery shopping', done: true, deleted: false},
