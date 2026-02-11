@@ -9,12 +9,11 @@ function TaskList({tasks, onChangeTask,  onDeleteTask})
 
     const Labelstyle = () => ({
         display: 'flex', 
-        marginRight: '8px', 
         gap: '4px'
     });
     const Taskliststyle = (Taskdeleted) => ({
         display: 'flex', 
-        width: '40vw',
+        width: '40vw', // 40% of the viewport width
         border: '1px solid grey' , 
         borderRadius: '8px', 
         height: '50px', 
@@ -56,13 +55,19 @@ function TaskList({tasks, onChangeTask,  onDeleteTask})
         {task.deleted && <FaBan size = {16} className="icon-banTask"/>}
         {editID === task.id ?
         (<button
-        onClick={() => handleSaveClick(task)} disabled = {task.deleted}><FaSave size = {16} className="icon-edit" /></button>)
+        onClick={() => handleSaveClick(task)} disabled = {task.deleted} data-testid = 'saveIcon'>
+            <FaSave size = {16} className="icon-edit" 
+        /></button>)
          : (
         <button
-        onClick={() => handleEditClick(task)} disabled = {task.deleted}><FaEdit size = {16} className="icon-save" /></button>
+        onClick={() => handleEditClick(task)} disabled = {task.deleted} data-testid = 'editIcon'>
+            <FaEdit size = {16} className="icon-save" 
+        /></button>
         )}
         <button
-        onClick={() => handleDeleteClick(task.id)} disabled = {task.deleted}><FaTrash size = {16} className="icon-del"/></button>
+        onClick={() => handleDeleteClick(task.id)} disabled = {task.deleted} data-testid = 'delIcon'>
+            <FaTrash size = {16} className="icon-del"
+        /></button>
         </div>
         </li>
         )}  
