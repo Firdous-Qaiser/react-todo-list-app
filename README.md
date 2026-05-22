@@ -7,10 +7,10 @@ A dynamic React.js To-Do List application that allows users to create, update, d
 ## 📸 Screenshots
 
 ### 🖥️ Desktop View
-[![Desktop Screenshot](public/screenshots/desktop.png)](public/screenshots/desktop.png)
+[![Desktop Dashboard](https://raw.githubusercontent.com/Firdous-Qaiser/react-todo-list-app/master/public/Screenshot/Desktop-dashboard.png)](https://raw.githubusercontent.com/Firdous-Qaiser/react-todo-list-app/master/public/Screenshot/Desktop-dashboard.png)
 
 ### 📱 Mobile View
-[![Mobile Screenshot](public/screenshots/mobile.png)](public/screenshots/mobile.png)
+*(Add your mobile screenshot here the same way once uploaded)*
 
 ---
 
