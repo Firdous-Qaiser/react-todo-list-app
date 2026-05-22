@@ -2,27 +2,36 @@
 
 A dynamic React.js To-Do List application that allows users to create, update, delete, and restore tasks efficiently using React Hooks and modern UI design.
 
-## Features
+---
+
+## 📸 Screenshots
+
+### 🖥️ Desktop View
+![Desktop Screenshot](public/screenshots/desktop.png)
+
+### 📱 Mobile View
+![Mobile Screenshot](public/screenshots/mobile.png)
+
+---
+
+## ✨ Features
 
 - Add New Tasks
 - Update Existing Tasks
 - Delete Tasks
 - Restore Deleted Tasks
-- Responsive User Interface
+- Responsive User Interface (Mobile + Desktop)
 - React Hooks for State Management
 - Clean and User-Friendly Design
+- Unit Testing with Jest
 
-## Tech Stack
+---
 
-- React.js
-- JavaScript
-- HTML5
-- CSS3
+## 🧪 Testing
 
-## Installation
+This project includes unit testing using **Jest** and React Testing Library to ensure components work correctly.
+
+Run tests using:
 
 ```bash
-git clone https://github.com/your-username/react-todo-list-app.git
-cd react-todo-list-app
-npm install
-npm start
+npm test
