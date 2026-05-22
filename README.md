@@ -10,7 +10,7 @@ A dynamic React.js To-Do List application that allows users to create, update, d
 [![Desktop Dashboard](https://raw.githubusercontent.com/Firdous-Qaiser/react-todo-list-app/master/public/Screenshot/Desktop-dashboard.png)](https://raw.githubusercontent.com/Firdous-Qaiser/react-todo-list-app/master/public/Screenshot/Desktop-dashboard.png)
 
 ### 📱 Mobile View
-*(Add your mobile screenshot here the same way once uploaded)*
+[![Mobile View](https://raw.githubusercontent.com/Firdous-Qaiser/react-todo-list-app/master/public/Screenshot/Mobile-view.png)](https://raw.githubusercontent.com/Firdous-Qaiser/react-todo-list-app/master/public/Screenshot/Mobile-view.png)
 
 ---
 
@@ -33,5 +33,5 @@ This project includes unit testing using Jest and React Testing Library to ensur
 
 To run tests:
 
-```bash
+```bash id="testcmd1"
 npm test
