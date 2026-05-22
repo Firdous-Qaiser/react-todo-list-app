@@ -1,63 +1,185 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
 .Logo {
     display: flex;
     justify-content: center;
     color: #424242;
 }
 .flexDiv {
-    display: flex; 
+    display: flex;
     justify-content: center;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
     font-size: 16px;
 }
+
 .blockDiv {
-    display: block;
+    width: 100%;
+    max-width: 750px;
 }
+
 .header {
     text-align: left;
 }
-.lg-checkBox {
+
+li {
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 10px;
+    overflow: hidden;}
+
+
+.taskText 
+{
+    flex: 1;
+    min-width: 0;
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.iconGroup
+{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+.lg-checkBox
+{
     transform: scale(1.2);
     margin-left: 8px;
+    flex-shrink: 0;
 }
+
 .icon-banTask {
     color: red;
 }
+
 .icon-edit {
-    color: #2563eb; 
+    color: #2563eb;
 }
+
 .icon-save {
     color: #16a34a;
 }
+
 .icon-del {
-    color: #dc2626
+    color: #dc2626;
 }
-.EmptyIconstyle {
+
+.EmptyIconstyle 
+{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.navDiv {
-    display: flex; 
-    justify-content: center;
-    align-items: center; 
-    gap: 12px;
-}
-.addTaskDiv {
+
+
+.navDiv 
+{
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
 }
-.adTask {
+
+.addTaskDiv 
+{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+}
+
+.adTask 
+{
     width: 30vw;
-    height: 30px;
+    min-width: 220px;
+    max-width: 400px;
+    height: 35px;
     font-size: 14px;
-    border: #ffffffc7;
     border: 1px solid black;
     color: #000000;
     padding-left: 10px;
+    box-sizing: border-box;
 }
+
 .addBtn {
-    margin-left: 5px;
     font-size: 15px;
 }
-.restoreBtn:hover {
+
+
+.restoreBtn:hover 
+{
     color: rgb(9, 9, 240);
+}
+
+@media (max-width: 768px) 
+{
+
+    .blockDiv {
+        width: 100%;
+    }
+
+    .adTask {
+        width: 60vw;
+    }
+
+    li 
+    {
+        width: 100% !important;
+        min-height: 65px;
+        padding: 10px;
+    }
+}
+
+/* small mobile */
+
+@media (max-width: 480px) {
+
+    .flexDiv {
+        padding: 0 5px;
+    }
+
+    .blockDiv {
+        width: 100%;
+    }
+
+    li {
+        width: 100% !important;
+        min-height: 70px;
+        padding: 10px;
+        gap: 8px;
+    }
+
+    .taskText {
+        font-size: 14px;
+    }
+
+    .iconGroup {
+        gap: 6px;
+    }
+
+    .adTask {
+        width: 75vw;
+    }
+
+    .navDiv {
+        gap: 8px;
+    }
 }
