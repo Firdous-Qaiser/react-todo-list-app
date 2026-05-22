@@ -7,10 +7,10 @@ A dynamic React.js To-Do List application that allows users to create, update, d
 ## 📸 Screenshots
 
 ### 🖥️ Desktop View
-![Desktop Screenshot](public/screenshots/desktop.png)
+[![Desktop Screenshot](public/screenshots/desktop.png)](public/screenshots/desktop.png)
 
 ### 📱 Mobile View
-![Mobile Screenshot](public/screenshots/mobile.png)
+[![Mobile Screenshot](public/screenshots/mobile.png)](public/screenshots/mobile.png)
 
 ---
 
@@ -29,9 +29,9 @@ A dynamic React.js To-Do List application that allows users to create, update, d
 
 ## 🧪 Testing
 
-This project includes unit testing using **Jest** and React Testing Library to ensure components work correctly.
+This project includes unit testing using Jest and React Testing Library to ensure components work correctly.
 
-Run tests using:
+To run tests:
 
 ```bash
 npm test
