@@ -37,6 +37,11 @@ https://github.com/Firdous-Qaiser/react-todo-list-app/blob/master/public/Screens
 This project includes unit testing using Jest and React Testing Library to ensure components work correctly.
 
 To run tests:
-
-```bash id="testcmd1"
 npm test
+
+## Installation
+
+git clone https://github.com/your-username/react-todo-list-app-repo.git
+cd react-todo-list-app-repo
+npm install
+npm start
