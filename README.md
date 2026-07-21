@@ -15,8 +15,7 @@ https://github.com/Firdous-Qaiser/react-todo-list-app/blob/master/public/Screens
 https://github.com/Firdous-Qaiser/react-todo-list-app/blob/master/public/Screenshot/edit%26deleteTask.gif
 
 ### 📱 Mobile View
-
-
+https://github.com/Firdous-Qaiser/react-todo-list-app/blob/master/public/Screenshot/Mobile-view.png
 
 ---
 
