@@ -39,8 +39,10 @@ This project includes unit testing using Jest and React Testing Library to ensur
 To run tests:
 npm test
 
+
 ## Installation
 
+```bash
 git clone https://github.com/your-username/react-todo-list-app-repo.git
 cd react-todo-list-app-repo
 npm install
