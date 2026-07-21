@@ -9,7 +9,10 @@ A dynamic React.js To-Do List application that allows users to create, update, d
 ### 🖥️ Desktop View
 
   ###  Add a new Task
+  
+https://github.com/Firdous-Qaiser/react-todo-list-app/blob/master/public/Screenshot/addnewTask.gif
 
+  ###  Edit & delete Task
 
 
 ### 📱 Mobile View
